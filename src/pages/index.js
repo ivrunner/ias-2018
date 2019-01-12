@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import catAndHumanIllustration from '../images/cat-and-human-illustration.svg'
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import topPic from "../images/top pic.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -11,29 +11,22 @@ const IndexPage = () => (
       keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
     />
 
-    <div className="text-center">
-      <img
-        src={catAndHumanIllustration}
-        className="block mx-auto w-1/2"
-        alt="Cat and human sitting on a couch"
-      />
-
-      <h2 className="bg-yellow inline-block my-8 p-3">
-        Hey there! Welcome to your first Gatsby site.
-      </h2>
-
-      <p className="leading-loose">
-        This is a barebones starter for Gatsby styled using{' '}
-        <a
-          href="https://tailwindcss.com/"
-          className="font-bold no-underline text-grey-darkest"
-        >
-          Tailwind
-        </a>
-        , a utility-first CSS framework.
-      </p>
+    <div className="flex text-center">
+      <div className="w-1/2">
+        <img
+          src={topPic}
+          className="block mx-auto"
+          alt="Cat and human sitting on a couch"
+        />
+      </div>
+      <div className="w-1/2">
+        <h1 class="text-ias-green">SRP $3995!</h1>
+        <button class="bg-ias-yellow hover:bg-yellow-darker text-black font-bold py-2 px-4 rounded">
+          Click Here To Order!
+        </button>
+      </div>
     </div>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
