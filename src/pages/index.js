@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import topPic from "../images/top pic.jpg";
+import topPic from "../images/top-pic.jpg";
 
 const IndexPage = () => (
   <Layout>
