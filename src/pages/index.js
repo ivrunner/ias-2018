@@ -72,8 +72,8 @@ const IndexPage = props => (
     <center>
       <h1 class="p-8">Contact Us</h1>
     </center>
-    <div class="flex items-center text-center mb-4">
-      <div class="w-1/2 items-center text-center p-2">
+    <div class="flex flex-wrap items-center text-center mb-4">
+      <div class="w-full md:w-1/2 items-center text-center p-2">
         <h2 class="p-4">
           If you would like to email us directly please click the button below.
         </h2>
@@ -83,7 +83,7 @@ const IndexPage = props => (
           </a>
         </button>
       </div>
-      <div class="w-1/2 items-center text-center p-2">
+      <div class="w-full md:w-1/2 items-center text-center p-2">
         <h2 class="p-4">
           If you would like to order please fill out the form by clicking below.
         </h2>
