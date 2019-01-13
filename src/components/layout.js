@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import React from "react";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
 
-import Header from './header'
-import '../css/style.css'
+import Header from "./header";
+import "../css/style.css";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -24,35 +24,20 @@ const Layout = ({ children }) => (
           {children}
         </div>
 
-        <footer className="bg-blue">
+        <footer className="bg-black">
           <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
-            <p className="text-white">
-              Created by{' '}
-              <a
-                href="https://taylorbryant.blog"
-                className="font-bold no-underline text-white"
-              >
-                Taylor Bryant
-              </a>
-            </p>
+            <p className="text-white">Made In The U.S.A.</p>
 
-            <p>
-              <a
-                href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-                className="font-bold no-underline text-white"
-              >
-                GitHub
-              </a>
-            </p>
+            <p className="text-white">BOXMATE® Copyright 2016</p>
           </div>
         </footer>
       </div>
     )}
   />
-)
+);
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+  children: PropTypes.node.isRequired
+};
 
-export default Layout
+export default Layout;
