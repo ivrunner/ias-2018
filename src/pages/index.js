@@ -10,7 +10,7 @@ const IndexPage = props => (
   <Layout>
     <SEO
       title="Home"
-      keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+      keywords={[`boxmate`, `indiana`, `seed box nesting`, `the boxmate`]}
     />
 
     <div className="flex flex-wrap text-center">
@@ -78,7 +78,10 @@ const IndexPage = props => (
           If you would like to email us directly please click the button below.
         </h2>
         <button class="bg-ias-yellow hover:bg-yellow-darker text-black font-bold py-2 px-4 rounded">
-          <a href="mailto:innovativeagsystems@gmail.com">
+          <a
+            class="text-black no-underline"
+            href="mailto:innovativeagsystems@gmail.com"
+          >
             Click Here To Email Us!
           </a>
         </button>
