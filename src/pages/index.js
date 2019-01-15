@@ -15,7 +15,10 @@ const IndexPage = props => (
 
     <div className="flex flex-wrap text-center">
       <div className="w-full md:w-1/2 p-3">
-        <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+        <Img
+          fluid={props.data.imageOne.childImageSharp.fluid}
+          alt="The Boxmate"
+        />
       </div>
       <div className="w-full md:w-1/2 p-3">
         <h1 class="text-ias-green p-4">SRP $3995!</h1>
@@ -27,7 +30,7 @@ const IndexPage = props => (
             Email Us Now To Place Your Order!
           </a>
         </button>
-        <img class="p-4" src={boxmate} />
+        <img class="p-4" src={boxmate} alt="Boxmate Logo" />
         <h2 class="text-black">Bulk Seed Boxes Made EASY!</h2>
         <p class="text-xl">
           At the end of planting season, seed companies want their seed boxes
@@ -50,14 +53,14 @@ const IndexPage = props => (
     </center>
     <div class="flex flex-wrap mb-4">
       <div class="w-full md:w-1/3 p-2">
-        <Img fluid={props.data.one.childImageSharp.fluid} />
+        <Img fluid={props.data.one.childImageSharp.fluid} alt="Step 1" />
         <p class="text-xl">
           Simply Drive into the BOXMATE® with the Forklift, The angle cut arms
           with backstops with guide the seed box precisely into place.
         </p>
       </div>
       <div class="w-full md:w-1/3 p-2">
-        <Img fluid={props.data.two.childImageSharp.fluid} />
+        <Img fluid={props.data.two.childImageSharp.fluid} alt="Step 2" />
         <p class="text-xl">
           With one time off the forklift you can walk to the controls, make a
           quick turn of the latch, and be using the pneumatic valve to raise the
@@ -66,7 +69,7 @@ const IndexPage = props => (
         </p>
       </div>
       <div class="w-full md:w-1/3 p-2">
-        <Img fluid={props.data.three.childImageSharp.fluid} />
+        <Img fluid={props.data.three.childImageSharp.fluid} alt="Step 3" />
         <p class="text-xl">
           Now you just dump the air with the control valve and your box lowers
           into nesting position and releases itself from the latch on the way
