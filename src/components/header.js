@@ -10,11 +10,7 @@ const Header = ({ siteTitle }) => (
         to="/"
         className="flex items-center no-underline text-white w-1/3 sm:w-1/3 md:w-1/6"
       >
-        <img
-          src={iasLogo}
-          className="block mx-auto"
-          alt="Cat and human sitting on a bench"
-        />
+        <img src={iasLogo} className="block mx-auto" alt="IAS Main Logo" />
       </Link>
     </div>
     <center>
@@ -31,7 +27,7 @@ const Header = ({ siteTitle }) => (
         </div>
       </div>
       <div className="pb-8">
-        <button class="bg-ias-yellow hover:bg-yellow-darker text-black font-bold py-2 px-4 rounded">
+        <button class="bg-ias-yellow hover:bg-yellow-light text-black font-bold py-2 px-4 rounded">
           Watch The Video To Learn More!
         </button>
       </div>

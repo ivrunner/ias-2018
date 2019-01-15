@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
 import "../css/style.css";
+import mdcCredit from "../images/mdc-credit.svg";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -25,10 +26,19 @@ const Layout = ({ children }) => (
         </div>
 
         <footer className="bg-black">
-          <div className="flex justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
+          <div className="flex flex-wrap justify-between max-w-xl mx-auto p-4 md:p-8 text-sm">
             <p className="text-white">Made In The U.S.A.</p>
 
             <p className="text-white">BOXMATE® Copyright 2016</p>
+            <p className="text-white">
+              Designed By:
+              <a
+                class="text-ias-yellow no-underline hover:text-yellow-light"
+                href="http://www.richmatney.com"
+              >
+                Matney Design Co.
+              </a>
+            </p>
           </div>
         </footer>
       </div>

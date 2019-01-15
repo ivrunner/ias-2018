@@ -19,8 +19,13 @@ const IndexPage = props => (
       </div>
       <div className="w-full md:w-1/2 p-3">
         <h1 class="text-ias-green p-4">SRP $3995!</h1>
-        <button class="bg-ias-yellow hover:bg-yellow-darker text-black font-bold py-2 px-4 rounded">
-          Click Here To Order!
+        <button class="bg-ias-yellow hover:bg-yellow-light text-black font-bold py-2 px-4 rounded">
+          <a
+            class="text-black no-underline"
+            href="mailto:innovativeagsystems@gmail.com"
+          >
+            Email Us Now To Place Your Order!
+          </a>
         </button>
         <img class="p-4" src={boxmate} />
         <h2 class="text-black">Bulk Seed Boxes Made EASY!</h2>
@@ -72,26 +77,18 @@ const IndexPage = props => (
     <center>
       <h1 class="p-8">Contact Us</h1>
     </center>
-    <div class="flex flex-wrap items-center text-center mb-4">
+    <div class="flex flex-wrap items-center justify-center text-center mb-4">
       <div class="w-full md:w-1/2 items-center text-center p-2">
         <h2 class="p-4">
           If you would like to email us directly please click the button below.
         </h2>
-        <button class="bg-ias-yellow hover:bg-yellow-darker text-black font-bold py-2 px-4 rounded">
+        <button class="bg-ias-yellow hover:bg-yellow-light text-black font-bold py-2 px-4 rounded">
           <a
             class="text-black no-underline"
             href="mailto:innovativeagsystems@gmail.com"
           >
             Click Here To Email Us!
           </a>
-        </button>
-      </div>
-      <div class="w-full md:w-1/2 items-center text-center p-2">
-        <h2 class="p-4">
-          If you would like to order please fill out the form by clicking below.
-        </h2>
-        <button class="bg-ias-yellow hover:bg-yellow-darker text-black font-bold py-2 px-4 rounded">
-          Click Here To Order!
         </button>
       </div>
     </div>
