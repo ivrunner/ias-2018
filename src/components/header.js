@@ -17,6 +17,7 @@ const Header = ({ siteTitle }) => (
       <div className="max-w-2xl pb-8">
         <div class="videoWrapper">
           <iframe
+            title="Boxmate Video"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/-I3Li04sJLs"
