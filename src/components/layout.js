@@ -4,7 +4,6 @@ import { StaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
 import "../css/style.css";
-import mdcCredit from "../images/mdc-credit.svg";
 
 const Layout = ({ children }) => (
   <StaticQuery
