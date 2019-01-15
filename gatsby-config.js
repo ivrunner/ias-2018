@@ -5,6 +5,7 @@ module.exports = {
     author: `Rich Matney`
   },
   plugins: [
+    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -18,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `The Boxmate`,
+        name: `The-Boxmate`,
         short_name: `Boxmate`,
         start_url: `/`,
         background_color: `#ffffff`,
@@ -34,6 +35,9 @@ module.exports = {
         tailwind: true,
         purgeOnly: ["src/css/style.css"] // Purge only tailwind
       }
-    }`gatsby-plugin-offline`
+    }
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.app/offline
+    // 'gatsby-plugin-offline',
   ]
 };
