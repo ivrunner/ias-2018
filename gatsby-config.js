@@ -18,11 +18,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `The Boxmate`,
+        short_name: `Boxmate`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#4dc0b5`,
+        theme_color: `#00863F`,
         display: `minimal-ui`,
         icon: `src/images/ias-logo.png` // This path is relative to the root of the site.
       }
@@ -34,9 +34,6 @@ module.exports = {
         tailwind: true,
         purgeOnly: ["src/css/style.css"] // Purge only tailwind
       }
-    }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    }`gatsby-plugin-offline`
   ]
 };
