@@ -54,14 +54,14 @@ const IndexPage = props => (
     <div class="flex flex-wrap mb-4">
       <div class="w-full md:w-1/3 p-2">
         <Img fluid={props.data.one.childImageSharp.fluid} alt="Step 1" />
-        <p class="text-xl">
+        <p class="pt-5 text-xl">
           Simply Drive into the BOXMATE® with the Forklift, The angle cut arms
           with backstops with guide the seed box precisely into place.
         </p>
       </div>
       <div class="w-full md:w-1/3 p-2">
         <Img fluid={props.data.two.childImageSharp.fluid} alt="Step 2" />
-        <p class="text-xl">
+        <p class="pt-5 text-xl">
           With one time off the forklift you can walk to the controls, make a
           quick turn of the latch, and be using the pneumatic valve to raise the
           box. With Box in the air you can rotate 180 degrees with one hand and
@@ -70,7 +70,7 @@ const IndexPage = props => (
       </div>
       <div class="w-full md:w-1/3 p-2">
         <Img fluid={props.data.three.childImageSharp.fluid} alt="Step 3" />
-        <p class="text-xl">
+        <p class="pt-5 text-xl">
           Now you just dump the air with the control valve and your box lowers
           into nesting position and releases itself from the latch on the way
           down. Set your lid back on the box and your ready to store it away.
