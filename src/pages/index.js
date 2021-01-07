@@ -27,7 +27,7 @@ const IndexPage = props => (
             class="text-black no-underline"
             href="mailto:innovativeagsystems@gmail.com"
           >
-            Email Us Now For Pricing Information!
+            Email Us Now For Pricing Info!
           </a>
         </button>
         <img class="p-4" src={boxmate} alt="Boxmate Logo" />
