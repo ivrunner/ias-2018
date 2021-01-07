@@ -21,13 +21,13 @@ const IndexPage = props => (
         />
       </div>
       <div className="w-full md:w-1/2 p-3">
-        <h1 class="text-ias-green p-4">SRP $3995!</h1>
+       
         <button class="bg-ias-yellow hover:bg-yellow-light text-black font-bold py-2 px-4 rounded">
           <a
             class="text-black no-underline"
             href="mailto:innovativeagsystems@gmail.com"
           >
-            Email Us Now To Place Your Order!
+            Email Us Now For Pricing Information!
           </a>
         </button>
         <img class="p-4" src={boxmate} alt="Boxmate Logo" />
